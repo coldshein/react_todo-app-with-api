@@ -33,8 +33,6 @@ export const Footer: React.FC<Props> = ({
       <span className="todo-count" data-cy="TodosCounter">
         {itemsLeft} items left
       </span>
-
-      {/* Active link should have the 'selected' class */}
       <nav className="filter" data-cy="Filter">
         {filterStatus.map(item => (
           <a
